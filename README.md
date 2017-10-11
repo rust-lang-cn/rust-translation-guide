@@ -5,25 +5,25 @@
 
 ## Rust 官方文档
 
-Rust 语言的基础文档大都列在 https://www.rust-lang.org/en-US/documentation.html 页面上，目前 Rust 官方团队已经将相关文档拆分到不同的仓库上：
+Rust 语言的基础文档大都列在 [Rust 官方文档页介绍页](https://www.rust-lang.org/en-US/documentation.html) 上，目前 Rust 官方团队已经将相关文档拆分到不同的仓库上：
 
-- 《Rust 程序设计语言》（The Rust Programming Language）：https://doc.rust-lang.org/book/，对应仓库：https://github.com/rust-lang/book
-- 《通过例子学 Rust》（Rust by Example）：https://rustbyexample.com/，对应仓库：https://github.com/rust-lang/rust-by-example
-- The Rustonomicon：https://doc.rust-lang.org/nomicon/，对应仓库：https://github.com/rust-lang-nursery/nomicon
-- 《Rust 语言参考》（The Rust Reference）：https://doc.rust-lang.org/nightly/reference/，对应仓库：https://github.com/rust-lang-nursery/reference
+- [《Rust 程序设计语言》（The Rust Programming Language）](https://doc.rust-lang.org/book/)，对应 [GitHub 仓库](https://github.com/rust-lang/book)
+- [《通过例子学 Rust》（Rust by Example）](https://rustbyexample.com/)，对应 [GitHub 仓库](https://github.com/rust-lang/rust-by-example)
+- [The Rustonomicon](https://doc.rust-lang.org/nomicon/)，对应 [GitHub 仓库](https://github.com/rust-lang-nursery/nomicon)
+- [《Rust 语言参考》（The Rust Reference）](https://doc.rust-lang.org/nightly/reference/)，对应 [GitHub 仓库](https://github.com/rust-lang-nursery/reference)
 
 以上文档优先处理，这些文档都循序渐进翻译成中文文档。还有其他更多官方的文档：
 
-- Cargo 使用指南（The Cargo Guide）：http://doc.crates.io/guide.html
-- TOML 语法：https://github.com/toml-lang/toml
-- A Rust Cookbook：https://rust-lang-nursery.github.io/rust-cookbook/，对应仓库：https://github.com/rust-lang-nursery/rust-cookbook
-- 标准库 API 指南（Standard Library API Reference）：https://doc.rust-lang.org/std/
-- Rust 编译错误索引（Rust Compiler Error Index）：https://doc.rust-lang.org/error-index.html
-- The Unstable Book：https://doc.rust-lang.org/nightly/unstable-book/
+- [Cargo 使用指南（The Cargo Guide）](http://doc.crates.io/guide.html)
+- [TOML 语法](https://github.com/toml-lang/toml)
+- [A Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)，对应 [GitHub 仓库](https://github.com/rust-lang-nursery/rust-cookbook)
+- [标准库 API 指南（Standard Library API Reference）](https://doc.rust-lang.org/std/)
+- [Rust 编译错误索引（Rust Compiler Error Index）](https://doc.rust-lang.org/error-index.html)
+- [The Unstable Book](https://doc.rust-lang.org/nightly/unstable-book/)
 
-上述文档的源文件有些是放在 [rust](https://github.com/rust-lang/rust) 和 [cargo](https://github.com/rust-lang/cargo) 的仓库的子目录中：https://github.com/rust-lang/rust/tree/master/src/doclhttps://github.com/rust-lang/cargo/tree/master/src/doc 和 https://github.com/rust-lang/cargo/tree/master/src/doc。
+上述文档的源文件有些是放在 [rust](https://github.com/rust-lang/rust) 和 [cargo](https://github.com/rust-lang/cargo) 的仓库的子目录中：[Rust 文档](https://github.com/rust-lang/rust/tree/master/src/doclhttps://github.com/rust-lang/cargo/tree/master/src/doc) 和 [cargo 文档](https://github.com/rust-lang/cargo/tree/master/src/doc)。
 
-另外除了 `README.md` 文件外，还可以创建 `CONTRIBUTING.md` 和 `CONTRIBUTOR.md` 文件，前者是介绍如何参与项目的指南文件，后者可以列出参与项目的贡献者名单。这两份文件上，可以保留原文件基础上，再加上如何翻译的介绍和翻译者等信息。
+另外除了 `README.md` 文件外，还可以创建 `CONTRIBUTING.md` 和 `CONTRIBUTORS.md` 文件，前者是介绍如何参与项目的指南文件，后者可以列出参与项目的贡献者名单。这两份文件上，可以保留原文件基础上，再加上如何翻译的介绍和翻译者等信息。
 
 [rust-lang-cn](https://github.com/rust-lang-cn) 项目组已经翻译好的 [《通过例子学 Rust》](https://github.com/rust-lang-cn/rust-by-example-cn)就是按照这些原则进行的。
 
