@@ -5,7 +5,7 @@
 
 ## Rust 官方文档
 
-Rust 语言的学习或参考文档大都列在 [**Rust 学习指引页**](https://www.rust-lang.org/learn) 和 [Rust 官方文档主 页](https://doc.rust-lang.org/) 上，目前 Rust 官方团队已经将相关文档拆分到不同的仓库上：
+Rust 语言的学习或参考文档大都列在 [**Rust 学习指引页**](https://www.rust-lang.org/learn) 和 [**Rust 官方文档主页**](https://doc.rust-lang.org/) 上，目前 Rust 官方团队已经将相关文档拆分到不同的仓库上：
 
 - [《Rust 程序设计语言》（The Rust Programming Language）](https://doc.rust-lang.org/book/)，对应 [GitHub 仓库](https://github.com/rust-lang/book)
 - [《通过例子学 Rust》（Rust by Example）](https://doc.rust-lang.org/stable/rust-by-example/)，对应 [GitHub 仓库](https://github.com/rust-lang/rust-by-example)
