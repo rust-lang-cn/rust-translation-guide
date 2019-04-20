@@ -5,23 +5,33 @@
 
 ## Rust 官方文档
 
-Rust 语言的基础文档大都列在 [Rust 官方文档页介绍页](https://www.rust-lang.org/en-US/documentation.html) 上，目前 Rust 官方团队已经将相关文档拆分到不同的仓库上：
+Rust 语言的学习或参考文档大都列在 [**Rust 学习指引页**](https://www.rust-lang.org/learn) 和 [Rust 官方文档主 页](https://doc.rust-lang.org/) 上，目前 Rust 官方团队已经将相关文档拆分到不同的仓库上：
 
 - [《Rust 程序设计语言》（The Rust Programming Language）](https://doc.rust-lang.org/book/)，对应 [GitHub 仓库](https://github.com/rust-lang/book)
-- [《通过例子学 Rust》（Rust by Example）](https://rustbyexample.com/)，对应 [GitHub 仓库](https://github.com/rust-lang/rust-by-example)
+- [《通过例子学 Rust》（Rust by Example）](https://doc.rust-lang.org/stable/rust-by-example/)，对应 [GitHub 仓库](https://github.com/rust-lang/rust-by-example)
+- [Rust 版本指南（The Edition Guide）](https://doc.rust-lang.org/edition-guide/index.html)，对应 [GitHub 仓库](https://github.com/rust-lang-nursery/edition-guide)
+- [Cargo 帮助文档](https://doc.rust-lang.org/cargo/index.html)，对应 [GitHub 仓库源文件](https://github.com/rust-lang/cargo/tree/master/src/doc/src)
+- [rustdoc 帮助文档](https://doc.rust-lang.org/rustdoc/index.html)，对应 [GitHub 仓库源文件](https://github.com/rust-lang/rust/tree/master/src/doc/rustdoc)
+- [rustc 帮助文档](https://doc.rust-lang.org/rustc/index.html)，对应 [GitHub 仓库源文件](https://github.com/rust-lang/rust/tree/master/src/doc/rustc)
+- [Rust 编译错误索引](https://doc.rust-lang.org/error-index.html)，对应 [GitHub 仓库源代码](https://github.com/rust-lang/rust/blob/master/src/librustc_mir/error_codes.rs)
+- [《Rust 语言参考》（The Rust Reference）](https://doc.rust-lang.org/reference/index.html)，对应 [GitHub 仓库](https://github.com/rust-lang-nursery/reference)
 - [The Rustonomicon](https://doc.rust-lang.org/nomicon/)，对应 [GitHub 仓库](https://github.com/rust-lang-nursery/nomicon)
-- [《Rust 语言参考》（The Rust Reference）](https://doc.rust-lang.org/nightly/reference/)，对应 [GitHub 仓库](https://github.com/rust-lang-nursery/reference)
 
-以上文档优先处理，这些文档都循序渐进翻译成中文文档。还有其他更多官方的文档：
+以上文档优先处理，这些文档都循序渐进翻译成中文文档。还有其他更多官方或其他非官方相关的文档：
 
-- [Cargo 使用指南（The Cargo Guide）](http://doc.crates.io/guide.html)
+- [使用 Rust 编写命令行应用](https://rust-lang-nursery.github.io/cli-wg/)，对应 [GitHub 仓库地址](https://github.com/rust-lang-nursery/cli-wg)
+- [Rust 和 WebAssembly 教程（WebAssembly Book）](https://rustwasm.github.io/docs/book/)，对应 [GitHub 仓库](https://github.com/rustwasm/book)
+- [嵌入式 Rust 教程](https://rust-embedded.github.io/book/)，对应 [GitHub 仓库](https://github.com/rust-embedded/book)
 - [TOML 语法](https://github.com/toml-lang/toml)
 - [A Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)，对应 [GitHub 仓库](https://github.com/rust-lang-nursery/rust-cookbook)
-- [标准库 API 指南（Standard Library API Reference）](https://doc.rust-lang.org/std/)
-- [Rust 编译错误索引（Rust Compiler Error Index）](https://doc.rust-lang.org/error-index.html)
-- [The Unstable Book](https://doc.rust-lang.org/nightly/unstable-book/)
+- [The Unstable Book](https://doc.rust-lang.org/nightly/unstable-book/)，对应 [GitHub 仓库源代码](https://github.com/rust-lang/rust/tree/master/src/doc/unstable-book)
+- [rustc 指引——Rust 编译器的工作原理及如何参与贡献（rustc-guide）](https://rust-lang.github.io/rustc-guide/)，对应 [GitHub 仓库](https://github.com/rust-lang/rustc-guide)
+- [rustup 命令说明](https://github.com/rust-lang/rustup.rs)，本翻译项目会将 `rustup` 的相关说明翻译成中文
+- [Rust RFC——Rust 发展相关制定的文稿](https://rust-lang.github.io/rfcs/)，对应 [GitHub 仓库](https://github.com/rust-lang/rfcs)
+- [mdBook 使用手册](https://rust-lang-nursery.github.io/mdBook/)，对应 [GitHub 仓库](https://github.com/rust-lang-nursery/mdBook)
+- [Rust API 指导原则](https://rust-lang-nursery.github.io/api-guidelines/)，对应 [GitHub 仓库](https://github.com/rust-lang-nursery/api-guidelines)
 
-上述文档的源文件有些是放在 [rust](https://github.com/rust-lang/rust) 和 [cargo](https://github.com/rust-lang/cargo) 的仓库的子目录中：[Rust 文档](https://github.com/rust-lang/rust/tree/master/src/doclhttps://github.com/rust-lang/cargo/tree/master/src/doc) 和 [cargo 文档](https://github.com/rust-lang/cargo/tree/master/src/doc)。
+上述文档的源文件有些是放在 [rust](https://github.com/rust-lang/rust) 和 [cargo](https://github.com/rust-lang/cargo) 的仓库的子目录中：[Rust 文档](https://github.com/rust-lang/rust/tree/master/src/doc) 和 [cargo 文档](https://github.com/rust-lang/cargo/tree/master/src/doc)。
 
 另外除了 `README.md` 文件外，还可以创建 `CONTRIBUTING.md` 和 `CONTRIBUTORS.md` 文件，前者是介绍如何参与项目的指南文件，后者可以列出参与项目的贡献者名单。这两份文件上，可以保留原文件基础上，再加上如何翻译的介绍和翻译者等信息。
 
