@@ -37,7 +37,6 @@ Rust 语言的学习或参考文档大都列在 [**Rust 学习指引页**](https
 - [使用 Rust 编写命令行应用](https://rust-lang-nursery.github.io/cli-wg/)，对应 [GitHub 仓库地址](https://github.com/rust-lang-nursery/cli-wg)
 - [Rust 和 WebAssembly 教程（WebAssembly Book）](https://rustwasm.github.io/docs/book/)，对应 [GitHub 仓库](https://github.com/rustwasm/book)
 - [嵌入式 Rust 教程](https://rust-embedded.github.io/book/)，对应 [GitHub 仓库](https://github.com/rust-embedded/book)
-- [TOML 语法](https://github.com/toml-lang/toml)
 - [A Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)，对应 [GitHub 仓库](https://github.com/rust-lang-nursery/rust-cookbook)
 - [The Unstable Book](https://doc.rust-lang.org/nightly/unstable-book/)，对应 [GitHub 仓库源代码](https://github.com/rust-lang/rust/tree/master/src/doc/unstable-book)
 - [rustc 指引——Rust 编译器的工作原理及如何参与贡献（rustc-guide）](https://rust-lang.github.io/rustc-guide/)，对应 [GitHub 仓库](https://github.com/rust-lang/rustc-guide)
