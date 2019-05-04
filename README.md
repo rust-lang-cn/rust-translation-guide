@@ -3,6 +3,21 @@
 
 本文给出翻译 Rust 官方相关文档的一些建议和具体指导操作，内容由 [rust-lang-cn](https://github.com/rust-lang-cn) 项目组编写，如有不合理或错误的地方，随时欢迎指出纠正，谢谢！
 
+## 中文翻译宗旨
+
+本文将在统一一个地方汇总所有官方相关的文档，提供最完善的 Rust 的中文指引，服务于社区和新人。本项目鼓励分享、奉献、无私、合作、注重版权（按惯例遵循官方的原授权），欢迎大家踊跃参与 Rust 文档的翻译工作，推动 Rust 在中国蓬勃发展，让更多未来的学习者更友好方便地学习 Rust 的知识。
+
+## 统一翻译术语和固定用语
+
+文档在翻译过程中，有些词汇或短语可能会反复遇到，有一些是英语的固有的短语或常见表述，在翻译成中文时，应该在文章中保持一致，比如：
+
+- see also：参见，参考
+- up to：取决于
+
+此类内容后续会不断整理更新。
+
+除了固有短语外，还有一类是和 Rust 或计算机相关的科技术语，在翻译过程中应使用正确的术语，参见[《Rust 语言术语中英文对照表》](https://github.com/rust-lang-cn/english-chinese-glossary-of-rust/blob/master/rust-glossary.md)。
+
 ## Rust 官方文档
 
 Rust 语言的学习或参考文档大都列在 [**Rust 学习指引页**](https://www.rust-lang.org/learn) 和 [**Rust 官方文档主页**](https://doc.rust-lang.org/) 上，目前 Rust 官方团队已经将相关文档拆分到不同的仓库上：
@@ -30,6 +45,7 @@ Rust 语言的学习或参考文档大都列在 [**Rust 学习指引页**](https
 - [Rust RFC——Rust 发展相关制定的文稿](https://rust-lang.github.io/rfcs/)，对应 [GitHub 仓库](https://github.com/rust-lang/rfcs)
 - [mdBook 使用手册](https://rust-lang-nursery.github.io/mdBook/)，对应 [GitHub 仓库](https://github.com/rust-lang-nursery/mdBook)
 - [Rust API 指导原则](https://rust-lang-nursery.github.io/api-guidelines/)，对应 [GitHub 仓库](https://github.com/rust-lang-nursery/api-guidelines)
+- [async-book](https://rust-lang.github.io/async-book/)，对应 [GitHub 仓库](https://github.com/rust-lang/async-book)
 
 上述文档的源文件有些是放在 [rust](https://github.com/rust-lang/rust) 和 [cargo](https://github.com/rust-lang/cargo) 的仓库的子目录中：[Rust 文档](https://github.com/rust-lang/rust/tree/master/src/doc) 和 [cargo 文档](https://github.com/rust-lang/cargo/tree/master/src/doc)。
 
@@ -65,17 +81,6 @@ Rust 的相关文档主要以网页的形式呈现出来，为了让翻译后文
 - 翻译后内容注意语句通顺，符合中文语言习惯，比如英文中特别喜欢用 “You” 来承上启下，但中文不一定出现 “你” 这个人称（可考虑去掉人称代词）
 - 对专有名词或 Rust 术语，建议在翻译中文词汇后面加上英文词汇，用小括号括起来
 - 对英文表述暂时无法翻译清晰的语句，建议在括号后面加上原英文句子。
-
-## 统一翻译术语和固定用语
-
-文档在翻译过程中，有些词汇或短语可能会反复遇到，有一些是英语的固有的短语或常见表述，在翻译成中文时，应该在文章中保持一致，比如：
-
-- see also：参见，参考
-- up to：取决于
-
-此类内容后续会不断整理更新。
-
-除了固有短语外，还有一类是和 Rust 或计算机相关的科技术语，在翻译过程中应使用正确的术语，参见[《Rust 语言术语中英文对照表》](https://github.com/rust-lang-cn/english-chinese-glossary-of-rust/blob/master/rust-glossary.md)。
 
 ## 翻译流程
 
