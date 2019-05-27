@@ -72,7 +72,7 @@ Rust 的相关文档主要以网页的形式呈现出来，为了让翻译后文
   - 英文中使用斜体，在 `Markdown` 中使用 `*` 将内容包含起来，如：`*Rust*` 效果为 *Rust*
 - 翻译文档中主要使用中文标点符号，中文符号遵循国家符号标准，在保持英文的内容上，使用英文标点符号
 
-更多排版注意内容可参考[《中文排版指南》](https://github.com/aakloxu/chinese-copywriting-guidelines)。
+更多排版注意内容可参考[《中文排版指南》](https://github.com/aaranxu/chinese-copywriting-guidelines)。
 
 ## 语句表达
 
